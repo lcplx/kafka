@@ -1,0 +1,51 @@
+Kafka
+
+Flow 
+
+start ubuntu for zookeeper 
+start ubuntu kafka broker
+
+check borker host if different 9092 need to modify host file
+create spring application initilizer
+-spring Web = rest 
+-Spring for kafka Apache
+
+application properties spring bootstrap server 
+it connects spring to kafka broker 
+
+- define topic config pointing
+return TopicBuilder.name
+@Bean
+- create producer configuration 
+server config serializer , key value 
+create factory for producer
+command line runner 
+
+command line read message 
+
+spring app consumer read 
+deserilizer
+
+create a message controller = restcontroller 
+request mapping 
+
+click the icon to generate post request 
+
+
+wsl --install -d <Distribution Name>
+curl -O https://dlcdn.apache.org/kafka/3.4.0/kafka_2.13-3.4.0.tgz
+https://learn.microsoft.com/en-us/windows/wsl/install
+https://www.digitalocean.com/community/tutorials/how-to-install-java-with-apt-on-ubuntu-22-04
+
+liang 1234
+sudo apt update
+sudo apt install default-jre
+
+https://kafka.apache.org/quickstart
+
+Open windows hosts file c:\Windows\System32\Drivers\etc\hosts
+Add a binding for your puma domain to localhost 127.0.0.1 mysite.test
+
+
+bin/kafka-console-consumer.sh --topic amigoscode --from-beginning --bootstrap-server liang.localdomain:9092
+0818Kkw!
