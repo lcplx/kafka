@@ -37,6 +37,10 @@ curl -O https://dlcdn.apache.org/kafka/3.4.0/kafka_2.13-3.4.0.tgz
 https://learn.microsoft.com/en-us/windows/wsl/install
 https://www.digitalocean.com/community/tutorials/how-to-install-java-with-apt-on-ubuntu-22-04
 
+hostfile add 
+127.0.1.1 liang.localdomain
+
+
 liang 1234
 sudo apt update
 sudo apt install default-jre
