@@ -50,6 +50,8 @@ https://kafka.apache.org/quickstart
 Open windows hosts file c:\Windows\System32\Drivers\etc\hosts
 Add a binding for your puma domain to localhost 127.0.0.1 mysite.test
 
-
+bin/zookeeper-server-start.sh config/zookeeper.properties
+bin/kafka-server-start.sh config/server.properties
 bin/kafka-console-consumer.sh --topic amigoscode --from-beginning --bootstrap-server liang.localdomain:9092
-0818Kkw!
+
+uptimate U 
